@@ -2,6 +2,7 @@ import React from 'react'
 
 export default class FormAdvanced extends React.Component {
     // need state so you can set state variable
+    // note that state & render come before return()
     state = {
         name: "",
         email: "",

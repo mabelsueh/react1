@@ -1,11 +1,13 @@
 import React from 'react'
 import FormAdvanced from './FormAdvanced.js'
+import SurveyForm from './SurveyForm.js'
 
 function App() {
   return (
-    <div className="App">
+    <React.Fragment>
         <FormAdvanced/>  
-    </div>
+        <SurveyForm/>
+    </React.Fragment>
   );
 }
 
