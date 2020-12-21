@@ -10,7 +10,7 @@ export default class FormAdvanced extends React.Component {
         // ensures morning is prechecked
         time: "morning",
         fruits: [],
-        // ensures sg is preselected in the drpodown menu (not working!!!)
+        // ensures th VALUE is preselected in the drpodown menu
         country: 'th'
     }
 
@@ -54,7 +54,7 @@ export default class FormAdvanced extends React.Component {
                 </div>
                 <div>
                     <label>Country</label>
-                    {/* need the value={this.state.country} in select for the preselection in state to work */}
+                    {/* need the VALUE={this.state.country} in select for the preselection VALUE in state to work */}
                     <select name="country" onChange={this.updateFormField} value={this.state.country}>
                         <option value="sg">Singapore</option>
                         <option value="my">Malaysia</option>
