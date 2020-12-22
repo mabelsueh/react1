@@ -1,0 +1,48 @@
+{
+    "seating" : [
+        {
+            "display": "Outdoors",
+            "value": "outdoors"
+        },
+        {
+            "display": "Indoors",
+            "value": "indoors"
+        },
+        {
+            "display": "VIP Indoors",
+            "value": "vip-indoors"
+        }
+    ],
+
+
+
+    "smoking" : [
+        {
+            "display": "Smoking",
+            "value": "smoking"
+        },
+        {
+            "display": "Non-Smoking",
+            "value": "non-smoking"
+        }
+    ],
+
+    "appetizer" : [
+        {
+            "display": "Raw Fish",
+            "value": "raw-fish"
+        },
+        {
+            "display": "Salad",
+            "value": "salad"
+        },
+        {
+            "display": "Fried Cuttlefish",
+            "value": "fried-cuttlefish"
+        },
+        {
+            "display": "Peanuts",
+            "value": "peanuts"
+        }
+    ]
+}
